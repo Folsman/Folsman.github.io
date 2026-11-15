@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Omofolarin Emmanuel Ojo — Backend Developer & Building Technologist</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#faf8f5;--card:#fff;--text:#1c1b19;--muted:#6b6760;--line:#e6e1d9;--accent:#b4531a}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15140f;--card:#1e1d17;--text:#f1ede6;--muted:#a39e94;--line:#34322a;--accent:#e8935a}}
+:root[data-theme="dark"]{--bg:#15140f;--card:#1e1d17;--text:#f1ede6;--muted:#a39e94;--line:#34322a;--accent:#e8935a}
+html{color-scheme:light dark;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Georgia,'Times New Roman',serif}
+.wrap{max-width:820px;margin:0 auto;padding:48px 20px 64px}
+h1{font-size:clamp(2rem,6vw,3rem);line-height:1.1;margin:0 0 8px;letter-spacing:-.02em}
+h2{font:600 .8rem/1 system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:48px 0 16px}
+.role{font:500 1.05rem system-ui,sans-serif;color:var(--muted);margin:0 0 20px}
+.links{display:flex;flex-wrap:wrap;gap:10px;font:500 .9rem system-ui,sans-serif}
+.links a{color:var(--text);border:1px solid var(--line);background:var(--card);padding:8px 14px;border-radius:999px;text-decoration:none}
+.links a:hover{border-color:var(--accent);color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-bottom:14px}
+.card h3{margin:0 0 2px;font-size:1.1rem}
+.meta{font:.85rem system-ui,sans-serif;color:var(--muted);margin:0 0 10px}
+.stack{font:.8rem ui-monospace,Menlo,monospace;color:var(--accent);margin:0 0 8px}
+ul{margin:0;padding-left:20px}li{margin:6px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.grid .card{margin:0}
+.grid h3{font:600 .85rem system-ui,sans-serif;margin-bottom:6px}
+.grid p{margin:0;font-size:.92rem;color:var(--muted)}
+footer{margin-top:56px;font:.85rem system-ui,sans-serif;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>Omofolarin Emmanuel Ojo</h1>
+<p class="role">Backend Software Developer · Building Technology Undergraduate · Facility &amp; Infrastructure Operations</p>
+<div class="links">
+<a href="mailto:folarine480@gmail.com">folarine480@gmail.com</a>
+<a href="https://github.com/fewgocodes" target="_blank" rel="noopener">GitHub</a>
+<span style="padding:8px 4px;color:var(--muted)">Lagos, Nigeria</span>
+</div>
+</header>
+
+<h2>Profile</h2>
+<p>I study Building at the University of Lagos and build backend systems with Node.js. My work sits where the two meet: asset and facility management, MEP and structural design, and secure RESTful APIs. I turn technical specifications into working systems, whether that means balancing three-phase loads for a residential development, running preventive maintenance, or designing an API.</p>
+
+<h2>Experience</h2>
+<div class="card">
+<h3>Asset, Property &amp; Infrastructure Management Intern (SIWES)</h3>
+<p class="meta">JOF Nigeria Limited · 6-month industrial training</p>
+<ul>
+<li>Ran preventive and corrective maintenance workflows across residential and corporate properties: inspections, fault diagnostics and vendor repairs.</li>
+<li>Tracked infrastructure lifecycle performance, utility reliability and maintenance records.</li>
+<li>Wrote the SIWES technical report and delivered the formal defence presentation.</li>
+</ul>
+</div>
+<div class="card">
+<h3>Quality Assurance Intern (Remote)</h3>
+<p class="meta">TreeKle Inc. · Aug – Nov 2023</p>
+<ul>
+<li>Tested software, reported bugs and fed user-experience findings back to the product team, using Jira and Trello.</li>
+<li>Completed Mini-MBA business management workshops and weekly KPI reviews.</li>
+</ul>
+</div>
+
+<h2>Featured Projects</h2>
+<div class="card">
+<h3>NIBSS by Phoenix — Simulated Interbank Transfer API</h3>
+<p class="stack">Node.js · Express · MongoDB Atlas · Mongoose · JWT · bcrypt</p>
+<ul>
+<li>Secure REST API for account onboarding, wallet funding, transaction validation and transfer history.</li>
+<li>Role-based JWT authentication, bcrypt password hashing, rate limiting with express-rate-limit, and full Postman documentation.</li>
+</ul>
+</div>
+<div class="card">
+<h3>School Library Management API</h3>
+<p class="stack">JavaScript (ES6+) · Node.js · Express · MongoDB · Git/GitHub</p>
+<ul>
+<li>Built with an 11-engineer team (TS Academy, Group 18) using branch and pull-request workflows.</li>
+<li>Covers catalogue inventory, borrowing and return tracking, and member authentication.</li>
+</ul>
+</div>
+<div class="card">
+<h3>Integrated Building &amp; MEP Systems Design — Twin Detached Duplex</h3>
+<p class="stack">BLD 401/411 Studio · University of Lagos</p>
+<ul>
+<li>Full MEP service schedules for a two-wing Lagos duplex, including a 3-phase 415V layout (about 30 kW connected load balanced across the phases) and room-by-room BTU cooling loads.</li>
+<li>Borehole-to-overhead water supply (3,000 L ground storage, filtration, booster pumping) and a two-pipe drainage system into a 4.8 m³ Type B septic tank.</li>
+</ul>
+</div>
+<div class="card">
+<h3>Structural Analysis &amp; Construction Scheduling Scripts</h3>
+<p class="stack">Python · indetermbeam · openpyxl · Matplotlib · Streamlit · MS Project</p>
+<ul>
+<li>Python workflows that automate shear and bending-moment analysis of indeterminate beams and slope-deflection frame checks.</li>
+<li>Work breakdown structures, cost baselines and resource schedules for multi-unit residential case studies.</li>
+</ul>
+</div>
+
+<h2>Toolkit</h2>
+<div class="grid">
+<div class="card"><h3>Backend</h3><p>JavaScript (ES6+), Node.js, Express.js, Python, Java, HTML5, CSS3</p></div>
+<div class="card"><h3>Databases &amp; APIs</h3><p>MongoDB, Mongoose, Atlas, REST design, Postman, JWT, bcrypt</p></div>
+<div class="card"><h3>Built environment</h3><p>Structural analysis, MEP design (HVAC, 3-phase electrical, plumbing), WBS and scheduling, QA/QC and HSE plans</p></div>
+<div class="card"><h3>Workflow</h3><p>Git, GitHub PR reviews, Jira, Trello, Microsoft Project, Excel</p></div>
+</div>
+
+<h2>Education &amp; Certifications</h2>
+<div class="card">
+<ul>
+<li><strong>B.Sc. Building</strong> — University of Lagos</li>
+<li><strong>Backend Development Track (Phoenix Cohort)</strong> — TS Academy, graduated July 2026</li>
+<li><strong>Diploma in Java Technologies (202 hours)</strong> — NIIT Surulere, August 2024</li>
+<li><strong>CS50’s Introduction to Computer Science</strong> — HarvardX / edX, in progress</li>
+<li><strong>Inducted Member</strong> — Junior Chamber International (JCI), January 2026</li>
+</ul>
+</div>
+
+<footer>Open to backend, PropTech/ConTech and facility management roles. Get in touch at <a href="mailto:folarine480@gmail.com" style="color:var(--accent)">folarine480@gmail.com</a>.</footer>
+</div>
+</body>
+</html>
